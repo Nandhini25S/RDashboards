@@ -19,7 +19,4 @@ title(main="PASSENGERS TO INDIA [2015(1)-2019(1)]",col.main="blue",font.main=10)
 colours=c("#99FFFF","#33CCFF","#6699FF","#0066FF","#3399FF","#000066")
 pie(rs,col=colours,lab=round(rs))
 legend(1.7,0.5,c("INDIAN","AFRICAN","EUROPEAN","GULF","NORTH AMERICAN","REST OF ASIA"),cex=0.5,fill=colours)
-title(main="TOTAL PASSENGERS CARRIED (BY REGIONS)
-      [2015(1)-2019(1)]
-      (in lakhs)")
-
+title(main="TOTAL PASSENGERS CARRIED (BY REGIONS) [2015(1)-2019(1)] (in lakhs)")
